@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+@media only screen and (max-width:992px){
+    .form {
+        position: absolute;
+        top: 250px;
+        left: 0;
+        text-align: center;
+    }
+    
+
+    .form h1 {
+        display: inline;
+        font-size: 40px;
+        color: green;
+        text-align: center;
+    }
+    #reg {
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 2px 4px rgb(0 0 0 / 40%);
+        display: inline-block;
+        padding: 20px 20px;
+    }
+    .reg {
+        padding: 0 8px;
+        margin: 10px 0;
+        background-color: white;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+        border-radius: 20px;
+        font-size: 15px;
+        transition: 1s;
+    }
+    
+}
+
+@media only screen and (max-width:992px){
+    .hand {
+        background-image: linear-gradient(rgba(209, 179, 255,.7),rgba(179, 240, 255,.6)),url(../Image/friends-greetings-sign-disagreement-two-male-hands-competion-arm-wrestling-isolated-blue-studio-background-concept-standoff-support-friendship-business-community-strained-relations.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 700px;
+        width: 100%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+    .text h1 {
+        font-size: 30px;
+        text-align: center;
+        color: green;
+    }
+    .phone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 50px;
+        flex-basis: 50%;
+    }
+    .location {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 50px;
+        flex-basis: 50%;
+    }
+    .logo i {
+        font-size: 30px;
+        margin: 0 10px;
+        color: red;
+    }
+    .txt h3 {
+        font-size: 20px;
+    }
+    .txt h5 {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    /*form*/
+
+    .form h1 {
+        display: inline;
+        font-size: 30px;
+        color: green;
+        text-align: center;
+    }
+    
+
+}
+
+@media only screen and (max-width:768px){
+    .hand {
+        background-image: linear-gradient(rgba(209, 179, 255,.7),rgba(179, 240, 255,.6)),url(../Image/friends-greetings-sign-disagreement-two-male-hands-competion-arm-wrestling-isolated-blue-studio-background-concept-standoff-support-friendship-business-community-strained-relations.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 700px;
+        width: 100%;
+        position: relative;
+    }
+}
+
+
+
+@media only screen and (max-width:576px){
+
+    .form h1 {
+        display: inline;
+        font-size: 25px;
+        color: green;
+        text-align: center;
+    }
+    #reg {
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 2px 4px rgb(0 0 0 / 40%);
+        display: inline-block;
+        padding: 10px 10px;
+    }
+    .rg {
+        text-align: left;
+    }
+
+    
+    .location {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 0px;
+        flex-basis: 100%;
+    }
+    .phone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0px;
+        flex-basis: 100%;
+    }
+}
+
+
+@media only screen and (max-width:576px){
+
+    .all {
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+
+    .hand {
+        background-image: linear-gradient(rgba(209, 179, 255,.7),rgba(179, 240, 255,.6)),url(../Image/friends-greetings-sign-disagreement-two-male-hands-competion-arm-wrestling-isolated-blue-studio-background-concept-standoff-support-friendship-business-community-strained-relations.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 100%;
+        position: relative;
+    }
+    #reg {
+        height: 380px;
+        width: 350px;
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 2px  rgb(0 0 0 / 40%);
+        display: inline-block;
+        padding: 10px 10px;
+        margin: 60px auto;
+    }
+    .reg {
+        padding: 0 8px;
+        margin: 15px 0;
+        background-color: white;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+        border-radius: 20px;
+        font-size: 15px;
+        transition: 1s;
+    }
+}
+
+
+
+
+@media only screen and (max-width:440px){
+
+    .text h1 {
+        font-size: 25px;
+        text-align: center;
+        color: green;
+    }
+    .form h1 {
+        display: inline;
+        font-size: 20px;
+        color: green;
+        text-align: center;
+    }
+    
+
+    .hand {
+        background-image: linear-gradient(rgba(209, 179, 255,.7),rgba(179, 240, 255,.6)),url(../Image/friends-greetings-sign-disagreement-two-male-hands-competion-arm-wrestling-isolated-blue-studio-background-concept-standoff-support-friendship-business-community-strained-relations.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 100%;
+        position: relative;
+    }
+
+
+    #reg {
+        height: 380px;
+        width: 350px;
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 2px  rgb(0 0 0 / 40%);
+        display: inline-block;
+        padding: 10px 10px;
+        margin: 60px auto;
+    }
+    .reg {
+        padding: 0 8px;
+        margin: 15px 0;
+        background-color: white;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+        border-radius: 20px;
+        font-size: 15px;
+        transition: 1s;
+    }
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hand{
+    background-image:linear-gradient(rgba(209, 179, 255,.7),rgba(179, 240, 255,.6)),url(../Image/friends-greetings-sign-disagreement-two-male-hands-competion-arm-wrestling-isolated-blue-studio-background-concept-standoff-support-friendship-business-community-strained-relations.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 105vh;
+    width: 100%;
+    position: relative;
+}
+
+.text h1{
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+
+.all{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 100px;
+
+}
+.location{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 100px;
+}
+
+.logo i{
+    font-size: 50px;
+    margin: 0 20px;
+    color: red;
+}
+.txt h3{font-size: 30px;
+
+}
+.txt h5{margin-top: 5px;
+    font-size: 15px;
+
+}
+
+/*form*/
+
+.form{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+.form h1{
+    font-size: 40px;
+    color: green;
+    transform: translateX(-12%);
+}
+
+#reg{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px 15px rgba(0,0,0,.4);
+    display: inline-block;
+    padding: 20px 20px;
+}
+label{
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+.reg{padding: 0 8px;
+    margin: 10px 0;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 6px rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 1s;
+}
+.reg:hover{
+    transform: scale(1.1);
+}
+
+

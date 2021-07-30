@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about-bg{
+    background:linear-gradient(rgba(209, 179, 255,.5),rgba(179, 240, 255,.3)),url(../Image/5571000.jpg);
+
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.about-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 350px;
+    width: 600px;
+    padding: 20px 20px;
+}
+.about-img img{
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 8px 10px rgba(0,0,0,.4);
+}
+
+
+
+.about-txt{
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.about-txt h1{margin-top: 20px;
+    font-size: 40px;
+    color: maroon;
+    font-weight: 700;
+
+}
+.about-txt h2{margin-top: 10px;
+    font-size: 25px;
+    color: green;
+    font-weight: 600;
+
+}
+.about-txt p{font-size: 18px;
+    line-height: 20px;
+    margin-top: 30px;
+    color:black;
+    font-weight: 500;
+
+}
+.big-txt{
+    position: absolute;
+    top: 70%;
+    left: 0;
+}
+.big-txt p{margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    color:maroon;
+}
+
+
+/*about*/
+.about-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section-one{margin: 0 20px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 2px 2px 4px 10px rgba(0,0,0,.2);
+    transition: 1s;
+}
+.section-one:hover{
+    transform: scale(.9);
+}
+
+
+
+
+.section-one i{font-size: 60px;
+    display: inline-block;
+transform: translateX(150px);
+
+}
+.section-one h2{text-align: center;
+    margin-top: 20px;
+
+}
+.section-one p{font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.last{margin-top: 10px;
+background-color: black;
+}
+.last h3{
+    text-align: center;
+    color:red;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.last p{
+color:saddlebrown;
+text-align: center;
+margin-top: 15px;
+font-size: 16px;
+}

@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+    
+}
+
+
+
+@media only screen and (max-width:992px){
+    .textt {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .text {
+        background: linear-gradient(to right,rgba(209,179,255,.2),rgba(0,0,0.4)),
+        url(./img/african-american-man-working-laptop-talking-phone-man-with-beard-sitting-cafe.jpg)no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        position: relative;
+    }
+    .textt a {
+        position: absolute;
+        top: 115%;
+        left: 0;
+        padding: 5px 5px;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        transition: 1s;
+    }
+    .textt a::before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: 25px;
+        padding: 10px 50px;
+        background-color: red;
+        border-radius: 20px;
+        animation: button 2s infinite linear;
+    }
+
+
+    /*next*/
+
+    .slider {text-align: center;
+        margin-top: 40px;
+    }
+    .slider h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 600;
+    }
+    .slider-img {
+        background: url(../../Image/1000_F_127552561_XVe9fk12t7uWG4ggAG6dY2u607zw1O6O\ \(1\).jpg)no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 650px;
+        height: 400px;
+        visibility: visible;
+        margin-top: 60px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 8px 8px 15px rgba(0,0,0.4);
+        animation: moveleft 15s infinite;
+        animation-fill-mode: forwards;
+        margin: auto;
+        display: block;
+    }
+
+
+    /*next*/
+
+    .content h1 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 60px;
+    }
+    .content p {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 30px;
+        width: 80%;
+        color: maroon;
+        line-height: 25px;
+        margin: auto;
+        display: block;
+    }
+    .last img {
+        height: 400px;
+        width: 650px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 10px 10px 30px rgba(0,0,0.4);
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    .last h1 {
+        position: absolute;
+        top: 40%;
+        left: 38%;
+        color: green;
+        font-size: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px){
+
+    .textt h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+    }
+    .textt h1 {
+        font-size: 40px;
+        color: green;
+        font-weight: 700;
+    }
+    .textt p {
+        margin-top: 10px;
+        width: 70%;
+        color: white;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .slider h1 {
+        text-align: center;
+        font-size: 30px;
+        font-family: 600;
+    }
+    .slider-img {
+        background: url(../../Image/1000_F_127552561_XVe9fk12t7uWG4ggAG6dY2u607zw1O6O\ \(1\).jpg)no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 500px;
+        height: 300px;
+        visibility: visible;
+        margin-top: 60px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 8px 8px 15px rgba(0,0,0.4);
+        animation: moveleft 15s infinite;
+        animation-fill-mode: forwards;
+        margin: auto;
+        display: block;
+    }
+    .content h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 60px;
+    }
+    .last img {
+        height: 200px;
+        width: 400px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 10px 10px 30px rgba(0,0,0.4);
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    .last h1 {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        color: green;
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width:576px){
+    .slider h1 {
+        text-align: center;
+        font-size: 25px;
+        font-family: 600;
+    }
+    
+    .content h1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 60px;
+    }
+    
+    .last h1 {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        color: green;
+        font-size: 10px;
+    }
+
+
+    .content p {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 30px;
+        width: 100%;
+        color: maroon;
+        line-height: 20px;
+        margin: auto;
+        display: block;
+    }
+
+    .last img {
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px rgb(0 0 0);
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    .slider-img {
+        background: url(../../Image/1000_F_127552561_XVe9fk12t7uWG4ggAG6dY2u607zw1O6O\ \(1\).jpg)no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 320px;
+        height: 200px;
+        visibility: visible;
+        margin-top: 60px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px rgb(0 0 0);
+        animation: moveleft 15s infinite;
+        animation-fill-mode: forwards;
+        margin: auto;
+        display: block;
+    }
+
+    .textt a::before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: 30px;
+        padding: 10px 50px;
+        background-color: white;
+        border-radius: 20px;
+        animation: button 2s infinite linear;
+    }
+    .last h1 {
+        position: absolute;
+        top: 50%;
+        color: green;
+        font-size: 10px;
+    }
+
+
+    .textt a {
+        position: absolute;
+        top: 300px;
+        left: 0;
+        padding: 5px 5px;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        transition: 1s;
+    }
+
+}

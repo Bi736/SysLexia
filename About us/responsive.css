@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+@media only screen and (max-width:992px){
+
+    /*head*/
+
+    .about-bg {
+        text-align: center;
+        background: linear-gradient(rgba(209, 179, 255,.5),rgba(179, 240, 255,.3)),url(../../Image/5571000.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 850px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .about-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px 0px;
+        max-width: 100%;
+    }
+    
+    .about-img img {
+        height: 380px;
+        width: 600px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 2px 4px rgb(0 0 0 / 40%);
+        margin: 30px auto;
+        display: block;
+    }
+
+    .about-txt {
+        position: absolute;
+        top: 450px;
+        left: 0;
+    }
+    .big-txt {
+        position: absolute;
+        top: 850px;
+        left: 0;
+    }
+
+/*next*/
+
+
+    .section-one {
+        text-align: center;
+        margin: 0 20px;
+        border: 1px solid black;
+        padding: 10px 10px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: white;
+        box-shadow: 2px 2px 4px 4px rgb(0 0 0 / 20%);
+        transition: 1s;
+    }
+    .section-one i {
+        font-size: 60px;
+        display: inline;
+    }
+
+    .section-one p {
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+
+    .about-img img {
+        height: 300px;
+        width: 500px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 2px 4px rgb(0 0 0 / 40%);
+        margin: 30px auto;
+        display: block;
+    }
+
+    .about-txt {
+        position: absolute;
+        top: 350px;
+        left: 0;
+    }
+
+    .big-txt {
+        position: absolute;
+        top: 700px;
+        left: 0;
+    }
+    .about-txt h1 {
+        margin-top: 20px;
+        font-size: 30px;
+        color: maroon;
+        font-weight: 700;
+    }
+    .about-txt h2 {
+        margin-top: 10px;
+        font-size: 20px;
+        color: green;
+        font-weight: 600;
+    }
+    .about-txt p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 10px;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .big-txt p {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 500;
+        text-align: center;
+        color: maroon;
+    }
+
+    .about-bg {
+        text-align: center;
+        background: linear-gradient(rgba(209, 179, 255,.5),rgba(179, 240, 255,.3)),url(../../Image/5571000.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+        width: 100%;
+        position: relative;
+    }
+    .section-one {
+        text-align: center;
+        margin: 0 10px;
+        border: 1px solid black;
+        padding: 10px 10px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: white;
+        box-shadow: 1px 2px 2px 4px rgb(0 0 0 / 20%);
+        transition: 1s;
+    }
+    .section-one i {
+        font-size: 30px;
+        display: inline;
+    }
+    .section-one h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .section-one p {
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:576px){
+
+    .about-img img {
+        height: 250px;
+        width: 350px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 2px 4px rgb(0 0 0 / 40%);
+        margin: 30px auto;
+        display: block;
+    }
+
+
+    .about-section {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-one {
+        text-align: center;
+        margin: 20px 10px;
+        border: 1px solid black;
+        padding: 10px 10px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: white;
+        box-shadow: 1px 2px 2px 4px rgb(0 0 0 / 20%);
+        transition: 1s;
+    }
+    .about-txt {
+        position: absolute;
+        top: 270px;
+        left: 0;
+    }
+
+    .about-bg {
+        text-align: center;
+        background: linear-gradient(rgba(209, 179, 255,.5),rgba(179, 240, 255,.3)),url(../../Image/5571000.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 670px;
+        width: 100%;
+        position: relative;
+    }
+
+    .about-txt p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 5px;
+        color: black;
+        font-weight: 500;
+    }
+    .about-txt h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        color: green;
+        font-weight: 600;
+    }
+    
+}
+
+
+@media only screen and (max-width:440px){
+
+    .about-txt p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+        color: black;
+        font-weight: 500;
+    }
+    .big-txt p {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 500;
+        text-align: center;
+        color: maroon;
+    }
+
+
+    .about-txt {
+        position: absolute;
+        top: 270px;
+        left: 0;
+    }
+
+    .about-bg {
+        text-align: center;
+        background: linear-gradient(rgba(209, 179, 255,.5),rgba(179, 240, 255,.3)),url(../../Image/5571000.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 670px;
+        width: 100%;
+        position: relative;
+    }
+
+
+    .about-txt p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 5px;
+        color: black;
+        font-weight: 500;
+    }
+    .about-txt h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        color: green;
+        font-weight: 600;
+    }
+}

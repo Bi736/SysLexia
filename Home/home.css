@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(to right,rgba(209, 179, 255,.7),rgba(179, 240, 255,.8));
+
+}
+
+.text{
+    background:    linear-gradient(to right,rgba(209,179,255,.2),rgba(0,0,0.4)),
+    url(./img/african-american-man-working-laptop-talking-phone-man-with-beard-sitting-cafe.jpg)no-repeat;
+    
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.textt{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
+.textt h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.textt h1{
+    font-size: 60px;
+    color: green;
+    font-weight: 700;
+}
+.textt p{
+    margin-top: 40px;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.textt a{
+    position: absolute;
+    top: 115%;
+    left: 0;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 1s;
+}
+.textt a:hover{
+    color: white;
+    background-color: red;
+}
+
+.textt a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    background-color: red;
+    border-radius: 20px;
+    animation: button 2s infinite linear;
+}
+@keyframes button{
+    0%,30%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform:scale(1.5);
+        opacity: .5;
+    }
+    100%{    transform:scale(2);
+        opacity: 0;
+
+
+    }
+}
+
+
+/*slider*/
+
+.slider{
+    margin-top: 80px;
+}
+.slider h1{text-align: center;
+    font-size: 60px;
+    font-family: 600;
+
+}
+
+
+.slider-img {
+    background: url(../Image/1000_F_127552561_XVe9fk12t7uWG4ggAG6dY2u607zw1O6O\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 950px;
+    height: 600px;
+    visibility: visible;
+    margin-top: 60px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 15px rgba(0,0,0.4);
+    animation: moveleft 15s infinite;
+    animation-fill-mode: forwards;
+    margin: auto;
+    display: block;
+}
+
+
+
+@keyframes moveleft{
+    
+    0%{background:url(../Image/1000_F_136542286_v61RVQEumxiZsmaOBZva6aMUsweoZmfK.jpg);
+
+
+    }
+    25%{background: url(../Image/1000_F_140958820_pkDBBgqf3hfhnkIAYlzaFsM4qopo6eTm.jpg);
+animation-delay: 6s;
+    }
+    50%{background: url(../Image/1000_F_163481738_YyQIo1OaVofRNdz5K8Ef3Vn7ByOG4fQT.jpg);
+animation-delay: 6s;
+    }
+
+    75%{background: url(../Image/1000_F_163481855_AbMofeWo6DlvRMTACrB0GlD9l2yI7Ga7.jpg);
+animation-delay: 6s;
+    }
+
+    100%{background: url(../Image/1000_F_96344098_O8MV2Ex12yQf56PR5X41aHbNaLRQPoBd.jpg);
+        animation-delay: 6s;
+    }
+
+}
+
+
+
+.last{position: relative;
+    margin: 60px;
+}
+.last img{
+    height: 500px;
+    width: 850px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 30px rgba(0,0,0.4);
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.last h1{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    color: green;
+}
+
+
+.content{
+    margin-top: 40px;
+}
+.content h1{ text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 60px;
+
+}
+.content p{text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 80%;
+    color: maroon;
+    line-height: 30px;
+    margin: auto;
+    display: block;
+
+}
+
+
